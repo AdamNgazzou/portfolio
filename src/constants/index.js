@@ -4,11 +4,13 @@ import {
   creator,
   web,
   javascript,
+  postgresql,
   typescript,
   firebase,
   reactjs,
   express,
   pitchup,
+  edulearn,
   tailwind,
   nodejs,
   mongodb,
@@ -67,8 +69,8 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "postgresql",
+    icon: postgresql,
   },
   {
     name: "JavaScript",
@@ -168,6 +170,11 @@ const projects = [
       "Web-based platform that allows users to pitch, explore, and connect with startups, providing a collaborative space for discovering innovative business ideas.",
     tags: [
       {
+        name: "nextjs",
+        color: "blue-text-gradient",
+        icon: nextjs // Make sure this is imported at the top
+      },
+      {
         name: "react",
         color: "blue-text-gradient",
         icon: reactjs // Make sure this is imported at the top
@@ -186,6 +193,46 @@ const projects = [
     image: pitchup,
     source_code_link: "https://github.com/AdamNgazzou/startups-mern-backend",
     source_link: "https://pitchup-five.vercel.app"
+  },
+  {
+    name: "Edulearn (LMS)",
+    description:
+      "Designed for educators and course creators, it enables instructors to manage courses and track performance, while providing students with an organized platform to learn & grow",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+        icon: nextjs // Make sure this is imported at the top
+      },
+      {
+        name: "expressjs",
+        color: "blue-text-gradient",
+        icon: express // Make sure this is imported at the top
+      },
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+        icon: nodejs // Make sure this is imported at the top
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+        icon: reactjs // Make sure this is imported at the top
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+        icon: postgresql // Make sure this is imported at the top
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+        icon: tailwind // Make sure this is imported at the top
+      },
+    ],
+    image: edulearn,
+    source_code_link: "https://github.com/AdamNgazzou/Edulearn",
+    source_link: "https://edulearn-chi.vercel.app/"
   }
 ];
 
