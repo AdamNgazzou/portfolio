@@ -22,13 +22,14 @@ import typescript from "./tech/typescript.png";
 import redis from "./tech/redis.svg";
 import nextjs from "./tech/next.svg";
 import express from "./tech/express.svg"
+import postgresql from "./tech/postgresql.png"
 
 import highschool from "./company/highschool.png";
 import uni from "./company/uni.png";
 import tesla from "./company/tesla.png";
 
 import pitchup from "./pitchup.png";
-
+import edulearn from "./edulearn.png"
 
 export {
   logo,
@@ -53,8 +54,10 @@ export {
   typescript,
   redis,
   express,
+  postgresql,
   highschool,
   uni,
   tesla,
   pitchup,
+  edulearn
 };
