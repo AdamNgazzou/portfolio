@@ -286,7 +286,7 @@ const projects = [
       { name: "pytorch", color: "red-text-gradient", icon: pytorch },
     ],
     image: insurance, // import your project image at the top (e.g., Actual_vs_Predicted_Insurance_Charges.png)
-    source_code_link: "https://github.com/yourusername/insurance-cost-prediction", // replace with your GitHub repo
+    source_code_link: "https://github.com/AdamNgazzou/Insurance-Cost-Prediction-Linear-Regression-Pytorch", // replace with your GitHub repo
     source_link: "" // optional, e.g., live notebook or Colab
   },
 
