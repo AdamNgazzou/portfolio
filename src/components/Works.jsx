@@ -48,7 +48,7 @@ const ProjectCard = ({
               />
 
             </div>
-            <div
+            {source_link ? (<div
               onClick={() => window.open(source_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
@@ -58,13 +58,13 @@ const ProjectCard = ({
                 className='w-3/4 h-3/4 object-contain'
               />
 
-            </div>
+            </div>) : null}
           </div>
         </div>
 
-        <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
+        <div className="mt-5 flex-1 flex flex-col">
+          <h3 className="text-white font-bold text-[22.2px]">{name}</h3>
+          <div className="mt-2 text-secondary text-[14px] flex-1">{description}</div>
         </div>
 
         <div className='mt-4 flex flex-wrap gap-3'>
@@ -117,4 +117,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");
