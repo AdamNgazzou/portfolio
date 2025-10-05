@@ -41,6 +41,7 @@ import yolov1 from "./yolov1.png"
 import imagetotext from "./imagetotext.png"
 import braintumor from "./braintumor.png"
 import frauddetection from "./frauddetection.png"
+import insurance from "./insurance.png"
 export {
   logo,
   backend,
@@ -81,4 +82,5 @@ export {
   opencv,
   ultralytics,
   frauddetection,
+  insurance,
 };

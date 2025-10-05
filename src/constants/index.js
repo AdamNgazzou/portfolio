@@ -32,6 +32,7 @@ import {
   ultralytics,
   opencv,
   frauddetection,
+  insurance,
 } from "../assets";
 
 export const navLinks = [
@@ -276,6 +277,19 @@ const projects = [
     source_code_link: "https://github.com/AdamNgazzou/Pytorch-Credit-Card-Fraud-Detection", // replace with your GitHub repo
     source_link: "" // optional if you have a hosted notebook or demo
   },
+  {
+    name: "Insurance Cost Prediction",
+    description:
+      "A PyTorch-based machine learning project that predicts yearly medical insurance costs using personal attributes such as age, BMI, smoking habits, and more. Helps insurance companies estimate premiums and gain insights into risk factors.",
+    tags: [
+      { name: "python", color: "blue-text-gradient", icon: python },
+      { name: "pytorch", color: "red-text-gradient", icon: pytorch },
+    ],
+    image: insurance, // import your project image at the top (e.g., Actual_vs_Predicted_Insurance_Charges.png)
+    source_code_link: "https://github.com/yourusername/insurance-cost-prediction", // replace with your GitHub repo
+    source_link: "" // optional, e.g., live notebook or Colab
+  },
+
   {
     name: "Pitchup startups",
     description:
